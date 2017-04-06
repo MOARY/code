@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	font-size: 50px;
+	font-family: "宋体"；
+}
+#container{
+	position: relative;
+	width: 720px;
+	height: 280px;
+	overflow: hidden;
+}
+#list{
+	position: absolute;
+	z-index: 1;
+	width: 2180px;
+	height: 280px;
+}
+img{
+	width: 33%;
+	float: left;
+}
+#button{
+	position: absolute;
+	height: 10px;
+	width: 100px;
+	z-index: 2;
+	top: 20px;
+	left: 20px;
+}
+
+#prev{
+	cursor: pointer;
+	left: 30px;
+}
+#next{
+	cursor: pointer;
+	left: 530px;
+}
+span{
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	cursor: pointer;
+}
+#circle1{
+	left: 280px;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: grey;
+}
+#circle2{
+	left:300px;
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	background-color: grey;
+}
+#circle3{
+	left:320px;
+	width: 10px;
+	height: 10px;
+	background-color: grey;
+}
