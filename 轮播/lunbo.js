@@ -58,4 +58,14 @@ window.onload=function(){
 				}
 			})(i)
 		}
+		setInterval(function(){
+			animate(-720);
+			if(index==circle.length){
+				index=1;
+			}
+			else{
+				index++;
+			}
+			showcircle();
+		}, 2000);
 }
